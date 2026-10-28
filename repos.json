@@ -1,0 +1,53 @@
+{
+  "_doc": "Registry of the cloud-me-pvt hub. A SUBSET of repo_master/repos.json (_git-repos-master), narrowed to the private cloud-me family (Cloud-Me-Pvt). Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model. Private members are linked only: the index exposes their name, never their content.",
+  "_schema": "front-repos/v1",
+  "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
+  "base_dir_default": "~/git",
+  "_visibility_doc": "private:true repos require SSH access configured for this GitHub account to clone.",
+  "groups": {},
+  "repos": [
+    {
+      "name": "cloud-me-pvt-vault",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-vault.git",
+      "private": true,
+      "doc": "Secrets (sops/age). Every credential the fleet uses."
+    },
+    {
+      "name": "cloud-me-pvt-cgc",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-cgc.git",
+      "private": true,
+      "doc": "The PRIVATE half of the cgc pipeline (pvt surface: the private repos -> cloud-cgc-pvt-mcp). A thin orchestrator rendered from cloud-u-containers_cgc at a pinned sha, so private-repo runs and logs stay private. Was cloud-u-containers_cgc-pvt; renamed 2026-10-10 into the private cloud-me family (split-outs are named <parent>_<name>; every cloud-u-* repo is public)."
+    },
+    {
+      "name": "cloud-me-pvt-configs",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-configs.git",
+      "private": true,
+      "doc": "Private configs (cloud-me family). Added 2026-10-15: it existed but was missing here, so clone.sh and --sync skipped it. (/home/user/cloud-vault is just a second clone of cloud-me-pvt-vault, not a separate repo.)"
+    },
+    {
+      "name": "cloud-me-pvt-data",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-data.git",
+      "private": true,
+      "doc": "Generated fleet config consumed by cloud's services."
+    },
+    {
+      "name": "cloud-me-pvt-my-ai",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-my-ai.git",
+      "private": true,
+      "doc": "Claude Code's durable state and the source it runs from. ~/.claude symlinks in, not out: a_sessions/<instance>/ holds transcripts, file-history, shell-snapshots and history.jsonl; b_projects/ holds MEMORY.md and memory-entries; a_commits/ snapshots every commit object of every repo here."
+    },
+    {
+      "name": "cloud-me-pvt-notes",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-notes.git",
+      "private": true,
+      "doc": "Personal notes (Obsidian vault)."
+    },
+    {
+      "name": "cloud-me-pvt-containers",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-containers.git",
+      "private": true,
+      "doc": "The owner's own (cloud-me) containers. Created 2026-10-21 (private)."
+    }
+  ],
+  "_root_doc": "No entries carry a group field - every member links at the root of this index, same as CG and Fin-CM."
+}
