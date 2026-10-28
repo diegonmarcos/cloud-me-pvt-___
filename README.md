@@ -1,6 +1,8 @@
 # cloud-me-pvt-___
 
-Registry index for the private cloud-me family (Cloud-Me-Pvt) - same model as `CG-___`, `Fin-CM-___` and `cloud-___`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
+Registry index for the private cloud-me family (Cloud-Me-Pvt) - same model as `CG-___`, `Fin-CM-___` and `cloudy-___`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
+
+Parent hub: [cloud-me-___](https://github.com/diegonmarcos/cloud-me-___), the top hub of the cloud-me project (the owner's configs across the cloud).
 
 ## Members
 
