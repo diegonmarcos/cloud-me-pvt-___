@@ -26,3 +26,7 @@ Parent hub: [cloud-me-___](https://github.com/diegonmarcos/cloud-me-___), the to
 ```
 
 `repos.json` is a SUBSET of `~/git/_git-repos-master/repos.json` (the superset index of every repo this account owns): identical name/url/private/doc fields, checked by `./check-repos-sot.sh`.
+
+## Hub submodule
+
+This repo's parent hub is `cloud-me-___`, mounted as a git submodule at `0_hub/cloud-me-___` (one fixed path convention for every repo; URL https://github.com/diegonmarcos/cloud-me-___.git, pinned to the hub main). Only the upward link is a submodule; this hub keeps symlinks (not submodules) to its members, so there are no cycles. Source of truth: `repos.json` in _git-repos-master (`parent_hub` / `hub`, `_hub_submodule_doc`), guarded by `node repos-sot.js check-hubs`.
