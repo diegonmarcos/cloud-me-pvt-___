@@ -5,6 +5,7 @@
   "label": "cloud-me-pvt-___",
   "code": "1.2.2.0",
   "kind": "hub",
+  "variant": "hub",
   "description": "Cloud-Me-Pvt hub: index of the private cloud-me family",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/cloud-me-pvt-___",
