@@ -1,0 +1,116 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "cloud-me-pvt-___",
+  "label": "cloud-me-pvt-___",
+  "code": "1.2.2.0",
+  "kind": "hub",
+  "description": "Cloud-Me-Pvt hub: index of the private cloud-me family",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/cloud-me-pvt-___",
+  "developer": "Leaf.y",
+  "farm": "1.2.Cloud-me/Pvt",
+  "breadcrumb": [
+    {
+      "code": "1",
+      "kind": "area",
+      "label": "Unix",
+      "icon": "🐧"
+    },
+    {
+      "code": "1.2",
+      "kind": "project",
+      "label": "Cloud-Me",
+      "icon": "🙋"
+    },
+    {
+      "code": "1.2.2",
+      "kind": "subcategory",
+      "label": "Pvt",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "cloud-me-___",
+    "code": "1.2.0",
+    "url": "https://github.com/diegonmarcos/cloud-me-___"
+  },
+  "base_dir": "git",
+  "members": [
+    {
+      "code": "1.2.2.1.1",
+      "name": "cloud-me-pvt-my-ai",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-my-ai",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "Claude Code memory, prompt history and session store — single source of truth, symlinked into ~/.claude"
+    },
+    {
+      "code": "1.2.2.2.1",
+      "name": "cloud-me-pvt-cgc",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-cgc",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "Private half of the cgc pipeline: indexes the private repos into the cgc-pvt surface by calling cloud-u-containers_cgc's reusable workflow pinned by sha. Logs stay private."
+    },
+    {
+      "code": "1.2.2.3.1",
+      "name": "cloud-me-pvt-configs",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-configs",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "cloud-me_configs — cloud-me family"
+    },
+    {
+      "code": "1.2.2.4.1",
+      "name": "cloud-me-pvt-containers",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-containers",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "Private container configs and secrets for the cloud-me family"
+    },
+    {
+      "code": "1.2.2.5.1",
+      "name": "cloud-me-pvt-data",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-data",
+      "visibility": "private",
+      "kind": "repo",
+      "description": ""
+    },
+    {
+      "code": "1.2.2.6.1",
+      "name": "cloud-me-pvt-notes",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-notes",
+      "visibility": "private",
+      "kind": "repo",
+      "description": ""
+    },
+    {
+      "code": "1.2.2.7.1",
+      "name": "cloud-me-pvt-vault",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-vault",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "vault"
+    }
+  ],
+  "tree": [
+    "├── .claude/",
+    "│   └── agents/",
+    "├── .githooks/",
+    "├── .obsidian/",
+    "├── .vscode/",
+    "├── 0_hub/",
+    "│   └── cloud-me-___ (submodule)",
+    "└── my-account/",
+    "    ├── fish/",
+    "    │   └── termux/",
+    "    ├── gemini/",
+    "    │   └── termux/",
+    "    ├── goose/",
+    "    │   └── termux/",
+    "    ├── tokens/",
+    "    ├── wg-dns/",
+    "    └── wireguard-wstunnel/"
+  ]
+}
