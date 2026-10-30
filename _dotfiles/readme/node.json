@@ -64,14 +64,6 @@
     },
     {
       "code": "1.2.2.4.1",
-      "name": "cloud-me-pvt-containers",
-      "url": "https://github.com/diegonmarcos/cloud-me-pvt-containers",
-      "visibility": "private",
-      "kind": "repo",
-      "description": "Superseded by cloud-me-pvt-configs Linux-Containers (to archive, owner)"
-    },
-    {
-      "code": "1.2.2.5.1",
       "name": "cloud-me-pvt-data",
       "url": "https://github.com/diegonmarcos/cloud-me-pvt-data",
       "visibility": "private",
@@ -79,7 +71,7 @@
       "description": ""
     },
     {
-      "code": "1.2.2.6.1",
+      "code": "1.2.2.5.1",
       "name": "cloud-me-pvt-notes",
       "url": "https://github.com/diegonmarcos/cloud-me-pvt-notes",
       "visibility": "private",
@@ -87,7 +79,7 @@
       "description": ""
     },
     {
-      "code": "1.2.2.7.1",
+      "code": "1.2.2.6.1",
       "name": "cloud-me-pvt-vault",
       "url": "https://github.com/diegonmarcos/cloud-me-pvt-vault",
       "visibility": "private",

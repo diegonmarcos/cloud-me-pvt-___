@@ -16,17 +16,16 @@ Parent hub: [cloud-me-___](https://github.com/diegonmarcos/cloud-me-___), the to
 
 ## Members
 
-7 member(s), from the registry (`0_registry/projects-repos.json` in _git-repos-master).
+6 member(s), from the registry (`0_registry/projects-repos.json` in _git-repos-master).
 
 | Code | Repo | Visibility | Description |
 |---|---|---|---|
 | `1.2.2.1.1` | [cloud-me-pvt-my-ai](https://github.com/diegonmarcos/cloud-me-pvt-my-ai) | 🔒 private | Claude Code memory, prompt history and session store — single source of truth, symlinked into ~/.claude |
 | `1.2.2.2.1` | [cloud-me-pvt-cgc](https://github.com/diegonmarcos/cloud-me-pvt-cgc) | 🔒 private | Private half of the cgc pipeline: indexes the private repos into the cgc-pvt surface by calling cloud-u-containers_cgc's reusable workflow pinned by sha. Logs stay private. |
 | `1.2.2.3.1` | [cloud-me-pvt-configs](https://github.com/diegonmarcos/cloud-me-pvt-configs) | 🔒 private | cloud-me_configs — cloud-me family |
-| `1.2.2.4.1` | [cloud-me-pvt-containers](https://github.com/diegonmarcos/cloud-me-pvt-containers) | 🔒 private | Superseded by cloud-me-pvt-configs Linux-Containers (to archive, owner) |
-| `1.2.2.5.1` | [cloud-me-pvt-data](https://github.com/diegonmarcos/cloud-me-pvt-data) | 🔒 private |  |
-| `1.2.2.6.1` | [cloud-me-pvt-notes](https://github.com/diegonmarcos/cloud-me-pvt-notes) | 🔒 private |  |
-| `1.2.2.7.1` | [cloud-me-pvt-vault](https://github.com/diegonmarcos/cloud-me-pvt-vault) | 🔒 private | vault |
+| `1.2.2.4.1` | [cloud-me-pvt-data](https://github.com/diegonmarcos/cloud-me-pvt-data) | 🔒 private |  |
+| `1.2.2.5.1` | [cloud-me-pvt-notes](https://github.com/diegonmarcos/cloud-me-pvt-notes) | 🔒 private |  |
+| `1.2.2.6.1` | [cloud-me-pvt-vault](https://github.com/diegonmarcos/cloud-me-pvt-vault) | 🔒 private | vault |
 
 ## Usage
 

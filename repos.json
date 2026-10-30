@@ -41,12 +41,6 @@
       "url": "git@github.com:diegonmarcos/cloud-me-pvt-notes.git",
       "private": true,
       "doc": "Personal notes (Obsidian vault)."
-    },
-    {
-      "name": "cloud-me-pvt-containers",
-      "url": "git@github.com:diegonmarcos/cloud-me-pvt-containers.git",
-      "private": true,
-      "doc": "The owner's own (cloud-me) containers. Created 2026-10-21 (private)."
     }
   ],
   "_root_doc": "No entries carry a group field - every member links at the root of this index, same as CG and Fin-CM."
