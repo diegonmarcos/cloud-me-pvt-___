@@ -1,5 +1,5 @@
 {
-  "_doc": "Registry of the cloud-me-pvt hub. A SUBSET of repo_master/repos.json (_git-repos-master), narrowed to the private cloud-me family (Cloud-Me-Pvt). Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model. Private members are linked only: the index exposes their name, never their content.",
+  "_doc": "Registry of the cloud-me-pvt hub. A SUBSET of _git-repos-master/0_registry/repos.json, narrowed to the private cloud-me family (Cloud-Me-Pvt). Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model. Private members are linked only: the index exposes their name, never their content.",
   "_schema": "front-repos/v1",
   "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
   "base_dir_default": "~/git",

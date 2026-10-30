@@ -1,6 +1,6 @@
 {
   "schema": "readme-node/v1",
-  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "generated_by": "_git-repos-master 0_registry/readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node 0_registry/repos-sot.js sync-readmes)",
   "name": "cloud-me-pvt-___",
   "label": "cloud-me-pvt-___",
   "code": "1.2.2.0",
@@ -68,7 +68,7 @@
       "url": "https://github.com/diegonmarcos/cloud-me-pvt-containers",
       "visibility": "private",
       "kind": "repo",
-      "description": "Private container configs and secrets for the cloud-me family"
+      "description": "Superseded by cloud-me-pvt-configs Linux-Containers (to archive, owner)"
     },
     {
       "code": "1.2.2.5.1",
